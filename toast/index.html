@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toast Generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="box">
-        <textarea name="" id="" cols="30" rows="10">This is my sample text
+        <textarea name="" id="toastMessage" cols="30" rows="10">This is my sample text
         </textarea>
         <div class="toastSettings">
             <div>
@@ -16,8 +17,8 @@
                 <input type="number" id="timeDuration" value="3000">
             </div>
             <div>
-                <label for="isCancellable">is cancellable</label>
-                <input type="checkbox" id="isCancellable">
+                <label for="isCancelable">is cancelable</label>
+                <input type="checkbox" id="isCancelable">
             </div>
             <div>
                 <label for="success">Success</label>
@@ -30,12 +31,12 @@
         </div>
     </div>
     <div id="toastBox">
-        <div style="width: 400px; height:100px; background-color: green;">
+        <!-- <div style="width: 400px; height:100px; background-color: green;">
             jewifefeoif
         </div>
         <div style="width: 400px; height:100px; background-color: red;">
             ewfewfeffewf
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
